@@ -15,6 +15,6 @@ This module does that. More info <a href="https://eksworkshop.com/intermediate/2
 
 ```hcl
 module "terraform-k8s-logging-cw " {
-  source = "git::ssh://git@github.com:gaarm/terraform-k8s-logging.git?ref=tags/1.0.0"
+  source = "git::ssh://git@github.com:gaarm/terraform-k8s-logging-cw.git?ref=tags/1.0.0"
 }
 ```
